@@ -1,0 +1,56 @@
+
+# ==========================================
+# Frontend Learning Lab - Git Ignore
+# ==========================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local and private files
+_local/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Build outputs
+dist/
+build/
+coverage/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs and caches
+*.log
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Editor files
+.vscode/
+.idea/
+.history/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
